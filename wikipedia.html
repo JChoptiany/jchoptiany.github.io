@@ -1,0 +1,366 @@
+
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <title>Prometeusz – Wikipedia</title>
+  <style>
+    body {
+      font-family: 'Linux Libertine', 'Georgia', 'Times', 'Source Serif Pro', serif;
+      margin: 0;
+      background: white;
+      color: #202122;
+    }
+
+    .container {
+      display: flex;
+      max-width: 1600px;
+      margin: 0 auto;
+    }
+
+    .sidebar {
+      width: 220px;
+      padding: 20px;
+      font-size: 14px;
+    }
+
+    .sidebar h3 {
+      margin-top: 0;
+      border-bottom: 1px solid #a2a9b1;
+      padding-bottom: 4px;
+    }
+
+    .sidebar ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    .sidebar ul li {
+      margin-bottom: 6px;
+    }
+
+    .sidebar ul li span {
+      color: #3366cc;
+    }
+
+    .content-area {
+      flex-grow: 1;
+      max-width: 980px;
+      padding: 20px;
+    }
+
+    .header {
+      border-bottom: 1px solid #a2a9b1;
+      margin-bottom: 5px;
+    }
+
+    .title {
+      font-size: 28px;
+      font-weight: normal;
+      margin: 0;
+    }
+
+    .title a {
+      font-size: 12px;
+      margin-left: 8px;
+      text-decoration: none;
+      color: #3366cc;
+    }
+
+    .tabs {
+      display: flex;
+      font-size: 14px;
+      margin-top: 5px;
+      border-bottom: 1px solid #a2a9b1;
+    }
+
+    .tabs .left, .tabs .right {
+      display: flex;
+    }
+
+    .tabs .left {
+      margin-right: auto;
+    }
+
+    .tab {
+      padding: 8px 12px;
+      cursor: pointer;
+      text-decoration: none;
+      color: #202122;
+      border-bottom: 3px solid transparent;
+    }
+
+    .tab.active {
+      border-bottom: 3px solid black;
+      font-weight: bold;
+    }
+
+    .tab.blue {
+      color: #3366cc;
+    }
+
+    .tab:hover {
+      background-color: #f8f9fa;
+    }
+
+    p {
+      line-height: 1.6;
+      text-align: justify;
+    }
+
+    .content-row {
+      display: flex;
+      align-items: flex-start;
+      gap: 20px;
+    }
+
+    .infobox {
+      width: 250px;
+      border: 1px solid #a2a9b1;
+      background-color: #f8f9fa;
+      padding: 8px;
+      font-size: 13px;
+      text-align: center;
+	  margin-top: 20px;
+    }
+
+    .infobox-image {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin: 0 auto 8px auto;
+    }
+
+    .infobox-caption {
+      color: #555;
+      font-style: italic;
+    }
+
+    .infotext {
+      flex: 1;
+    }
+
+  </style>
+</head>
+<body>
+
+<img src="Góra strony.png" style="width: 100%; height: auto;">
+
+<div class="container">
+  <div class="sidebar">
+    <br><br><br>
+    <h3><b>Spis treści</b> <button>ukryj</button></h3>
+    <ul>
+      <li><span>Początek</span></li>
+      <li><span>Historia</span></li>
+      <li><span>Budowa</span></li>
+	  <li><span>Zastosowanie</span></li>
+      <li><span>Dystrybucja</span></li>
+      <li><span>Bibliografia</span></li>
+    </ul>
+  </div>
+
+  <div class="content-area">
+    <div class="header">
+      <h1 class="title">
+        Robot Prometeusz
+        <a href="#">[edytuj]</a>
+      </h1>
+    </div>
+
+    <div class="tabs">
+      <div class="left">
+        <div class="tab active">Artykuł</div>
+        <div class="tab blue">Dyskusja</div>
+      </div>
+      <div class="right">
+        <div class="tab active">Czytaj</div>
+        <div class="tab blue">Edytuj</div>
+        <div class="tab blue">Edytuj kod źródłowy</div>
+        <div class="tab blue">Wyświetl historię</div>
+        <div class="tab">Narzędzia ▼</div>
+      </div>
+    </div>
+
+    <div class="content-row">
+      
+      <div class="infotext">
+        <p><b>Robot Prometeusz</b> to zaawansowane urządzenie medyczne zaprojektowane do precyzyjnego kopiowania narządów i tkanek ludzkich. 
+        Jego koncepcja została opracowana przez studentów Politechniki Wrocławskiej, łącząc nowoczesne technologie obrazowania oraz drukowania 3D.
+        Robot Prometeusz wykorzystuje zaawansowane skanery 3D, które pozwalają na dokładną analizę struktury anatomicznej narządu oraz jego tkanek. 
+        Dzięki temu urządzenie tworzy trójwymiarową mapę narządu uwzględniającą jego kształt, strukturę wewnętrzną oraz właściwości materiałowe.</p>
+        <p>Na podstawie uzyskanych danych robot steruje specjalistyczną drukarką 3D, która w procesie technologicznym wytwarza wiarygodną kopię narządu. 
+        Wykorzystuje do tego zaawansowane biokompatybilne materiały, które imitują właściwości tkanek biologicznych, zapewniając funkcjonalność i trwałość stworzonej kopii.
+        Urządzenie to wyposażone jest w zaawansowaną sztuczną inteligencję, moduły adaptacyjne oraz technologie autonomicznego działania.</p>
+      </div>
+	  
+	  <div class="infobox">
+		<img src="Prometeusz model.png" alt="Robot Prometeusz" class="infobox-image">
+        <div class="infobox-caption">Robot Prometeusz – prototyp w laboratorium PWr</div>
+      </div>
+	  
+    </div>
+  </div>
+</div>
+
+
+
+  <div class="container">
+    <div class="sidebar">
+      
+    </div>
+
+    <div class="content-area">
+      <div class="header">
+        <h1 class="title">
+          Historia
+          <a href="#">[edytuj | edytuj kod]</a>
+        </h1>
+      </div>
+
+      <p>Robot Prometeusz został zaprojektowany i opracowany przez interdyscyplinarny zespół studentów oraz naukowców Politechniki Wrocławskiej, 
+	  którzy dostrzegli rosnące zapotrzebowanie na innowacyjne narzędzia wspierające rozwój medycyny regeneracyjnej oraz transplantologii.
+	  Projekt powstał z myślą o umożliwieniu lekarzom i badaczom pracy na precyzyjnych, w pełni funkcjonalnych replikach narządów ludzkich, wiernie odwzorowujących anatomię, 
+	  strukturę tkankową oraz właściwości biomechaniczne prawdziwych organów. Takie rozwiązanie miało na celu przede wszystkim zwiększenie skuteczności szkoleń chirurgicznych, 
+	  minimalizację ryzyka podczas rzeczywistych operacji oraz przyspieszenie badań nad nowymi terapiami i metodami leczenia. W oparciu o zaawansowane technologie skanowania,
+	  a także techniki druku przestrzennego z zastosowaniem biokompatybilnych materiałów, Prometeusz stał się pierwszym urządzeniem, które pozwala na wytwarzanie wiarygodnych kopii
+	  narządów w skali 1:1. Jego rozwój przebiegał etapami, obejmującymi dokładną analizę strukturalną narządów, integrację systemów obrazowania z nowoczesnymi drukarkami 3D 
+	  oraz testy funkcjonalności odzwierciedlających naturalne właściwości tkanki.
+	  
+	  Dzięki  badaniom i  prototypom, robot Prometeusz jest obecnie wykorzystywany nie tylko do celów edukacyjnych, ale także do eksperymentów medycznych oraz symulacji, 
+	  które znacząco przyczyniają się do ratowania życia ludzkiego na całym świecie.
+	  </p>
+
+    </div>
+  </div>
+
+
+
+
+  
+  <div class="container">
+    <div class="sidebar">
+      
+    </div>
+
+    <div class="content-area">
+      <div class="header">
+        <h1 class="title">
+          Budowa
+          <a href="#">[edytuj | edytuj kod]</a>
+        </h1>
+      </div>
+
+      
+
+      <p>Robot Prometeusz składa się z dwóch głównych modułów, które współpracują ze sobą, aby zapewnić precyzyjne kopiowanie narządów.
+	  Lewa komora pełni funkcję zaawansowanego systemu skanowania. Wyposażona jest w nowoczesne skanery 3D (oraz eksperymentalnie 5D), które dokładnie analizują kształt, strukturę i właściwości 
+	  anatomiczne narządu. Moduł ten zbiera dane o geometrii, teksturze oraz fizycznych parametrach tkanek, tworząc szczegółową cyfrową mapę. Prawa komora to zaawansowany system drukowania 3D. 
+	  Na podstawie danych otrzymanych z lewej części steruje procesem warstwowego nakładania biokompatybilnych materiałów, które wiernie imitują naturalne właściwości tkanek. Dzięki temu powstaje 
+	  funkcjonalna i trwała kopia narządu, zachowująca wszystkie kluczowe cechy oryginału. Obie części są zsynchronizowane przez centralny system sterowania wyposażony w moduły sztucznej inteligencji, 
+	  które optymalizują przebieg skanowania i drukowania, zapewniając najwyższą precyzję i efektywność działania.</p>
+	  
+
+    </div>
+	
+	
+  </div>
+  
+  
+  
+  
+  <div class="container">
+    <div class="sidebar">
+      
+    </div>
+
+    <div class="content-area">
+      <div class="header">
+        <h1 class="title">
+          Zastosowanie
+          <a href="#">[edytuj | edytuj kod]</a>
+        </h1>
+      </div>
+
+      
+
+      <p>Robot Prometeusz znajduje zastosowanie przede wszystkim w medycynie regeneracyjnej, transplantologii oraz edukacji medycznej. Pozwala na przygotowanie precyzyjnych modeli narządów, 
+	  które służą do szkoleń chirurgicznych, symulacji zabiegów oraz badań nad nowymi metodami leczenia. Dzięki temu lekarze mogą doskonalić swoje umiejętności w bezpiecznym środowisku, 
+	  co przyczynia się do poprawy jakości opieki medycznej. Ponadto, technologie wykorzystane w Prometeuszu otwierają nowe perspektywy dla rozwoju inżynierii tkankowej i biofabricacji.</p>
+	  
+
+    </div>
+	
+	
+  </div>
+  
+  
+  
+  
+  
+  <div class="container">
+    <div class="sidebar">
+      
+    </div>
+
+    <div class="content-area">
+      <div class="header">
+        <h1 class="title">
+          Dystrybucja
+          <a href="#">[edytuj | edytuj kod]</a>
+        </h1>
+      </div>
+
+      
+
+      <p>Robot Prometeusz nie jest dostępny do nabycia na rynku komercyjnym. Urządzenie jest przeznaczone wyłącznie do użytku w placówkach medycznych oraz instytucjach naukowych, 
+	  gdzie służy do rozwoju kompetencji lekarzy i prowadzenia badań naukowych. Możliwość nabycia robota jest dostępna tylko w ramach współpracy badawczo-rozwojowej z Politechniką Wrocławską 
+	  lub innymi partnerami projektu. Taki model dystrybucji zapewnia kontrolę nad wykorzystaniem technologii oraz jej dalszy rozwój.</p>
+	  
+
+    </div>
+	
+	
+  </div>
+  
+  
+  
+  
+  
+  <div class="container">
+    <div class="sidebar">
+      
+    </div>
+
+    <div class="content-area">
+      <div class="header">
+        <h1 class="title">
+          Bibliografia
+          <a href="#">[edytuj | edytuj kod]</a>
+        </h1>
+      </div>
+
+        <ul>
+		  <li>Oficjalna strona firmy Prometeusz</li>
+		  <li>Artykuł Puls Biznesu</li>
+		  <li>Trzeci punkt</li>
+		</ul>
+	  
+
+    </div>
+	
+	
+  </div>
+  
+  
+  
+  
+  
+
+</body>
+
+
+<img src="Dół strony.png" style="width: 100%; height: auto;">
+
+
+</html>
