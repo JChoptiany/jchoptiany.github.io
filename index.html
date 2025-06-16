@@ -1,1 +1,178 @@
-<h1>Prometheus landing page</h1>
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prometeusz</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navbar bg-blue">
+        <div class="navbar-wrapper">
+            <div class="navbar-brand">Prometeusz</div>
+            <div class="navbar-toggle" onclick="toggleMenu()">☰</div>
+            <div class="navbar-collapse">
+                <div class="navbar-links">
+                    <a href="#home" class="navbar-collapse-nav">Home</a>
+                    <a href="#produkt" class="navbar-collapse-nav">Produkt</a>
+                    <a href="#zespol" class="navbar-collapse-nav">Zespół</a>
+                    <a href="#technologia" class="navbar-collapse-nav">Technologia</a>
+                    <a href="#zastosowanie" class="navbar-collapse-nav">Zastosowanie</a>
+                    <a href="#budowa" class="navbar-collapse-nav">Budowa</a>
+                    <a href="#eksperci" class="navbar-collapse-nav">Eksperci</a>
+                    <a href="#kontakt" class="navbar-collapse-nav">Kontakt</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <header class="container bg-blue" id="home">
+        <div class="context">
+            <div class="context-container">
+                <div class="title txt-red">Welcome</div>
+                <div class="subtitle">Przyszłość medycyny zaczyna się dzisiaj</div>
+                <div class="description">Nowoczesna technologia, która tworzy wierne kopie ludzkich narządów</div>
+                <a href="https://jchoptiany.github.io/wikipedia/" class="button txt-red title">Czytaj więcej</a>
+            </div>
+            <div class="context-container">
+                <img src="images/Group 4.svg" alt="">
+            </div>
+        </div>
+    </header>
+
+    <section class="container" id="produkt">
+        <div class="title txt-blue txt-center">Product</div>
+        <div class="subtitle txt-normal txt-center">Czym jest Robot Prometeusz?</div>
+        
+        <div class="card-grid">
+            <div class="card">
+                <div class="card-img">
+                    <img src="images/Group 5.svg" alt="">
+                </div>
+                <div class="card-text txt-normal">
+                    Dzięki sztucznej inteligencji, skanerom 3D i drukowi 3D, pozwala odwzorować narządy w skali 1:1.
+                </div>
+            </div>
+            
+            <div class="card">
+                <div class="card-img">
+                    <img src="images/Group 6.svg" alt="">
+                </div>
+                <div class="card-text txt-normal">
+                    Urządzenie medyczne powstało z myślą o wsparciu lekarzy, badaczy i studentów medycyny.
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container txt-center" id="zespol">
+        <div class="title txt-blue">Zespół</div>
+        <div class="subtitle txt-normal">Zespół z misją</div>
+        <div class="description txt-gray w-large">
+            Robot Prometeusz powstał dzięki pracy interdyscyplinarnego zespołu studentów i naukowców Politechniki Wrocławskiej, którzy połączyli wiedzę z zakresu inżynierii, medycyny i AI.
+        </div>
+        <div class="image-block">
+            <img src="images/row.svg" alt="">
+        </div>
+    </section>
+
+
+
+    <section class="container bg-blue txt-center" id="technologia">
+        <div class="title txt-red">Technologia</div>
+        <div class="subtitle">Jak działa Prometeusz?</div>
+        <div class="description w-large">
+            Wszystko odbywa się automatycznie, dzięki AI
+        </div>
+
+        <div class="card-grid mt-150 gap-100">
+            <div class="card-small">
+                <div class="circle-number bg-orange txt-center txt-card-number">1</div>
+                <div class="card-text">Skanuje narząd w technologii 3D</div>
+            </div>
+            <div class="card-small">
+                <div class="circle-number bg-orange txt-center txt-card-number">2</div>
+                <div class="card-text">Tworzy cyfrową mapę tkanek</div>
+            </div>
+            <div class="card-small">
+                <div class="circle-number bg-orange txt-center txt-card-number">3</div>
+                <div class="card-text">Drukuje kopię z materiałów biokompatybilnych</div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="container context" id="zastosowanie">
+        <div class="context-text">
+            <div class="title txt-red border-top">Zastosowanie</div>
+            <div class="subtitle txt-normal">Gdzie znajduje zastosowanie?</div>
+            <div class="description txt-gray">
+                <ul class="list">
+                    <li class="txt-gray">- Edukacja medyczna</li>
+                    <li class="txt-gray">- Chirurgia symulacyjna</li>
+                    <li class="txt-gray">- Badania nad terapiami</li>
+                    <li class="txt-gray">- Inżynieria tkankowa</li>
+                    <li class="txt-gray">- Transplantologia eksperymentalna</li>
+                </ul>
+            </div>
+        </div>
+        <div class="application-context-img">
+            <img src="images/Group 7.svg" alt="">
+        </div>
+    </section>
+
+
+    <section class="container bg-blue" id="budowa">
+        <div class="title txt-center txt-red">Budowa</div>
+        <div class="subtitle txt-center">Jak zbudowany jest Prometeusz?</div>
+
+        <div class="line mt-150 step-1">Moduł skanowania – analizuje kształt i strukturę</div>
+        <div class="line step-2">Moduł drukujący – tworzy organ warstwa po warstwie</div>
+        <div class="line step-3">Centrum sterujące – kontrola AI i optymalizacja procesu</div>
+    </section>
+
+    <section class="container" id="eksperci">
+        <div class="title txt-center txt-red">Eksperci</div>
+        <div class="subtitle txt-center txt-normal">Co mówią eksperci?</div>
+
+        <div class="card-grid">
+            <div class="card">
+                <div class="card-img-experts">
+                    <img src="images/circle sec-.png" alt="">
+                </div>
+                <div class="msg">Prometeusz to ogromny krok w stronę przyszłości chirurgii.</div>
+                <div class="name">lek. med. Anna Kowalska</div>
+                <div class="role">Chirurg</div>
+            </div>
+
+            <div class="card">
+                <div class="card-img-experts">
+                    <img src="images/testimonial-user-cover-104.png" alt="">
+                </div>
+                <div class="msg">To narzędzie zmienia sposób, w jaki uczymy medycyny.</div>
+                <div class="name">prof. Jan Nowak</div>
+                <div class="role">dydaktyk PWr</div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-blue" id="kontakt">
+        <div class="title txt-red">Kontakt</div>
+        <div class="kontakt-line">📍 Politechnika Wrocławska</div>
+        <div class="kontakt-line">📧 prometheus@pwr.edu.pl </div>
+        <div class="kontakt-line">📞 +48 010 101 010</div>
+        <div class="kontakt-line">📎 Współpraca badawczo-rozwojowa dostępna dla instytucji naukowych i klinicznych.</div>
+    </footer>
+
+
+    <script>
+        function toggleMenu() {
+            const menu = document.querySelector('.navbar-collapse');
+            menu.classList.toggle('active');
+        }
+    </script>
+
+</body>
+</html>
